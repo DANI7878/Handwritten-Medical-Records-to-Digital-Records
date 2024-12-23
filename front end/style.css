@@ -1,0 +1,220 @@
+/* Modern Medical-Themed Responsive CSS */
+:root {
+    --primary-blue: #0077be;
+    --secondary-blue: #4eb3ff;
+    --background-light: #f4f7f9;
+    --text-dark: #2c3e50;
+    --accent-color: #1abc9c;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-dark);
+    background: linear-gradient(135deg, rgba(74, 179, 255, 0.1), rgba(26, 188, 156, 0.1)), 
+                url('https://wallpapers.com/images/hd/medical-background-cjge7e89adg6ub8x.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* Elegant Header Styling */
+header {
+    background: linear-gradient(to right, var(--primary-blue), var(--secondary-blue));
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(-45deg);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Container with Modern Glassmorphism */
+.container {
+    max-width: 60%;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 
+        0 15px 35px rgba(0, 0, 0, 0.1), 
+        0 5px 15px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.15), 
+        0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Enhanced File Input */
+input[type="file"] {
+    font-size: 1.1rem;
+    padding: 15px;
+    border: 2px solid var(--secondary-blue);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    background: rgba(74, 179, 255, 0.05);
+}
+
+input[type="file"]:hover, input[type="file"]:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 15px rgba(74, 179, 255, 0.2);
+}
+
+/* Vibrant Button */
+button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, var(--primary-blue), var(--accent-color));
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 102, 204, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 102, 204, 0.3);
+}
+
+button:hover::before {
+    left: 100%;
+}
+
+/* Output Container with Modern Design */
+.output-container {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.1), 
+        0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.output-container h2 {
+    font-size: 2rem;
+    color: var(--primary-blue);
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--secondary-blue);
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.output-container p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    background-color: var(--background-light);
+    padding: 25px;
+    border-left: 5px solid var(--accent-color);
+    border-radius: 10px;
+    max-width: 95%;
+    margin: 25px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.output-container table {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.output-container th, .output-container td {
+    padding: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.output-container th {
+    background: linear-gradient(to right, var(--primary-blue), var(--secondary-blue));
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.output-container tr:nth-child(even) {
+    background-color: rgba(74, 179, 255, 0.05);
+}
+
+.output-container tr:hover {
+    background-color: rgba(74, 179, 255, 0.1);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Scrollbar Styling for Modern Look */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(74, 179, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-blue);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-blue);
+}

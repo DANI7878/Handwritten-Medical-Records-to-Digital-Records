@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "handwritten-medical-entites",
+  "private_key_id": "89babde8ba7b2b36692d904eb1a2bf5837c0630f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCp8ihM+Cdq3IX1\n6J7NpiwJV8J+juYtk4/fJiYjrJmpHUOLbd95iPFLALLxfa8/kWI80HalqdkTCzXi\nf0hnfYyzpYmX7gBoPbvlLIzdB+iwnQCVaG6Av+ZYmydH9WFABTqMBZvepnAo2BQ6\nzc5aAYPHwiSZsv7Tl5+HMe3431GWbZgfPMAGKnsEa5bDlVV72rwT59kbfDTSkV6A\nOmnQPTZLpXEylTYjlSmwDdUyFYgxTEtG1EE1gZJk3kRH35eV0OSYZ6Nzr+AWK12r\nMbNXRTAOyR7g3m781DjzMYc/Sbid0M0lvzjoGJ4h/Wj2yjRKxYOWtdqDy+XCVoiF\nw+QioWnjAgMBAAECggEAMp2D8UCrhME/SLlKqtdGIFY6ADWRSpu7auvSyic68Mpd\ndqZ3u5vUudDwespDKryjNJel7rtCgtCA8P+V0fTrtgmkjFJ/XoycbKozHhWf8RIh\nvV4II2KEOXmkXmMv3sBv6oo1HUAXAaMxiz4GqnnvBMzG19we12g+RCbTyJ7CjvmC\nyhCj26/uL9RbqXJslGnNlEUlcw/1ie9tpk20oEBdvOrk66RUcEQIIOF9r6gypWLs\n7mTl051vmVTGzv3bGfGcuzU3oAdgi1q/bpJGvVpU7hWUJg7Uf+sIu0hYRRCmYJCR\nRkWD6Dvr7denZR1JKccCpNSkzBw6eN6M0qPm6gHd+QKBgQDaA4LNoOwOg7/ylbpw\n6zoNz4MZXcCGI7erXofk+PJNTL48UX6b9/3+6IPWHiWKRclrKe3XNV5sYOeiencW\nBd9FIgoai72Dx8DngkMdcGvaHehN9/aSXaw4dWaiubSVWgZdLFoZPUOfDWwVrhSi\nmBwasKheAmduU4gDqh44Xgd0HwKBgQDHjpXrd1voshvFktRfxf1DOzCr2v0AndBa\nl8iysW2xQF34B549rCekN2EYVhSAUajn8EibOqemnYOOMqaN0JE6kVgvljYbevO3\noL7Gl1DrH5oOJoWy2jVAysrOhZjD0i+IgI1fYqWfEL5SPOIht7IgQR9XYP876evB\n3lOI70FxvQKBgQDZgus8ETOy/4vAkdYj1uxi3wijhEATFQuotHXM4vuMV+bs8zno\njrIhYwY12HoHzLy6aGjdcGe2pbA1EQ5DMLSjmuSNu6HnGqLB19ryQjm4smIVeDHP\nshmjcq5l5/XdlKYIy7lQuSkARTnzH22DE1Pm5R32PVvIXRq03UOtZVL2bQKBgDFK\nqwVqii1EMU/wIL03boN4z2DjyrKoSJrX+x8IbIvn1k45s4CQUYpik30rZgz8HriL\nxaNyLY8eQSySnklRR04sMJgwhlTrXd/xuK3dGoO5Xpg4M7Yl6BmE/etdXIqiFFOn\nTUROXZKY1CoEF+c0NK965n7y2pi2AyH0BLZCQuwRAoGAR5biHvbqiQq36RIo3XAI\nGHr0/4j/rVA+h9RgLh4lLWSm4sWpjKM25jOCPGoFwXfdkVPu8Bg/zJbhVLlQ08uu\nCmMM833DjH7IyhFp3DiQd7uRmgKH7G+zP+sUDMbTbmuufw9jvykd9OpXzlid32/P\nk1Kt2+IXChGhZ5xpFNLFxPE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "handwritten-entites@handwritten-medical-entites.iam.gserviceaccount.com",
+  "client_id": "104260629316537442781",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/handwritten-entites%40handwritten-medical-entites.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
