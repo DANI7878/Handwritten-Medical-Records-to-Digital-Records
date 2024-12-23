@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Initialize Google Vision Client
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\Daniel\Desktop\Handwritten Text\backend\handwritten-medical-entites-89babde8ba7b.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"Enter your API Key"
 client = vision.ImageAnnotatorClient()
 
 nlp = spacy.load("en_ner_bc5cdr_md")
